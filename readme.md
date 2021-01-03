@@ -1,2 +1,2 @@
 # Refactor ASH 101
-## branch v1 original version
+## branch v2 stripped out content and scss
