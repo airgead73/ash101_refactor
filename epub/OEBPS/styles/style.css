@@ -22,9 +22,197 @@
 }
 
 /* BASE */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 964px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul, ol {
+  display: block;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+section,
+figure,
+figcaption,
+article,
+aside,
+header,
+footer {
+  display: block;
+}
+
+div,
+p,
+ol,
+ul,
+li,
+table,
+tr,
+th,
+td,
+blockquote,
+dl,
+dt,
+dd {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'RobotoRegular', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  hyphens: none;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img.scaled {
+  margin: 0 auto !important;
+}
+
+.clearfix:after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /* PAGE */
+.page {
+  background-color: #fafafa;
+  clear: both;
+}
+
+.section {
+  padding: 75px 0;
+}
+
+.section:nth-of-type(even) {
+  background-color: #fefefe;
+}
+
 /* HEADERS */
+.h2 {
+  font-size: 34px;
+  font-weight: 500;
+  padding: 12px 8px;
+  color: #484848;
+  clear: both;
+  width: 95%;
+  margin: 32px auto;
+  text-align: center;
+  border-bottom: 3px solid #c92b56;
+}
+
+.h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 16%;
+  margin-right: 16%;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #ddd;
+}
+
+.h4 {
+  font-family: Cambria, serif;
+  font-size: 32pxl;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
 /* TEXT */
+.txt {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.ext {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-left: 21%;
+  margin-right: 21%;
+}
+
+.keypoint {
+  font-size: 26px;
+  font-font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.keypoint strong {
+  font-weight: bold;
+}
+
+.keyterm {
+  font-weight: bold;
+}
+
+small,
+.text_small {
+  font-size: 0.889em;
+}
+
+.link {
+  text-decoration: none;
+  color: #2f402d;
+  border-bottom: dotted 1.5px #2f402d;
+  transition: border-bottom-style 0.27s;
+  word-break: break-word;
+}
+
+.link:hover {
+  border-bottom-style: solid;
+}
+
 /* CHAPTER OPENER */
 /* SECTIONS */
 /* PART */

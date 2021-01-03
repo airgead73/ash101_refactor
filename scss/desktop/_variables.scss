@@ -2,3 +2,23 @@
 
 // Columns
 $mainColumn: 16%;
+
+// colors
+$gray: (
+  lighter: #ddd,
+  medium: #484848,
+  light: #fafafa,
+  white: #fefefe
+);
+
+$red: (
+  medium: #c92b56
+);
+
+@function gray($color) {
+  @return map-get($gray, $color)
+}
+
+@function red($color) {
+  @return map-get($red, $color)
+}
