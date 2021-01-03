@@ -1,0 +1,231 @@
+// MISC
+.aside .link{
+  color: white;
+  border-bottom: dotted 1.5px #ffffff;
+  }
+  
+  .aside p.ext
+  {
+    color: white !important;
+    margin-left: 7%;
+    margin-right: 7%;
+  
+  }
+  
+  .tx-center
+  {text-align: center;}
+  
+  .authName
+  {
+  font-size:20px;}
+  
+  
+  div.photo-left-v {
+    float: left !important;
+    width: 50% !important;
+    padding: 0em;
+    margin-right: 1em;
+    margin-left: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 250px;
+    min-width: 200px;
+    clear: both;
+  
+  }
+  
+  
+  h1.fmtitle {
+      font-size: 36pt;
+      font-weight: normal;
+      text-align: center;
+      padding: 10px 0px;
+      clear: both;
+  }
+  
+  .figure-1 img
+  {
+   display: inline !important;
+  }
+  
+  tr:nth-child(even) td {
+  
+                  background: #f1f1f1 ;
+  
+                  }
+  
+  p.tx-ref 
+  {
+    word-break: break-word;
+  }
+  
+  tr .alt_cell {
+  
+                  background: #f1f1f1 !important;
+  
+                  }
+  
+  tr .reg_cell {
+  
+                  background: #ffffff !important;
+  
+                  }
+  
+  .no-ital
+  {
+   text-decoration: none;
+  }
+  
+  
+  
+   .aside figcaption .link{
+  color: black;
+  border-bottom: dotted 1.5px #000000;
+  }
+  
+  
+  span.no-ital
+  {
+   font-style:normal;
+  }
+  
+  /*created for table footnote and source*/
+  td.no_border_src {
+    font-weight: normal;
+    text-align: left;
+    font-size: 14px;
+    border: none;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .no_spacein_ul_ol ol, .no_spacein_ul_ol ul
+  {
+     margin-top:0px !important;
+     padding-right:0px;
+  }
+  
+   p.sl-caption
+  {
+                  margin-top: 1em;
+                  font-size: 16px;
+                  font-weight: bold;
+                  line-height: 1.2em;
+  } 
+  
+  p.media{
+    
+    line-height: 1.2em;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0.6em;
+    text-align: left;
+    color: #000;
+    display: none;
+  }
+  
+  div.photo-right-v {
+    float: right;
+    width: 50%;
+    padding: 0em;
+    margin-right: 0em;
+    margin-left: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 250px;
+    min-width: 200px;
+    clear: both;
+    
+  }
+  
+   div.photo-box-vector {
+    margin: 1em auto;
+    width: 35%;
+    clear: both;
+  }
+  
+  div.photo-box-center {
+  width: 90%;
+    clear: both;
+    margin: auto;
+    max-width: 750px;
+    float: none;
+    padding: 1.5em;
+    margin-top: 1em;
+    min-width: 250px;
+  }
+  
+  div.photo img {
+    display: block;
+  }
+  
+  div.photo-box-center-small {
+  width: 70%;
+    clear: both;
+    margin: auto;
+    max-width: 500px;
+    float: none;
+    padding: 1.5em;
+    margin-top: 1em;
+    min-width: 250px;}
+  
+  /* Download Button */
+  div.download-box {
+    position: relative;
+    margin: 0em auto;
+    clear: both;
+    color: #555555;
+    width: 98%;
+    max-width: 960px;
+    padding: 50px 30px;
+    -webkit-box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.20); 
+  }
+  
+  a.download-btn2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    line-height: 2.5;
+    padding: 0 12px;
+    border: 1px solid #000;
+    -webkit-transition: background-color .35s, color .35s;
+    transition: background .35s, color .35s;
+  }
+  
+  a.download-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #c92a56;
+    color: #fff;
+    line-height: 2.5;
+    padding: 0 12px;
+    border: 1px solid #000;
+    -webkit-transition: background-color .35s, color .35s;
+    transition: background .35s, color .35s;
+  }
+  
+  a.download-btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  a.download-btn2:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  a.download-btn:active {
+    outline: 2px solid #000;
+  }

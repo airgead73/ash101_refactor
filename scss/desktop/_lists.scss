@@ -1,0 +1,53 @@
+/* LISTS */
+
+ol,
+ul {
+	list-style-position: outside;
+	margin: 24px 0;
+	padding: 0 18%;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+	margin-bottom: 0;
+	padding-left: 1.5em;
+	overflow: visible;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul.checklist li {
+	list-style-type: none;
+	background-image: url(../Images/list-check.png);
+	background-repeat: no-repeat;
+	padding-left: 28px;
+	color: black;
+}
+
+li {
+	margin-bottom: 8px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bl {
+	list-style-type: disc;
+}
+
+.nl {
+	list-style-type: decimal;
+}
+
+.l-none {
+	list-style-type: none;
+	margin-right: -10%;
+}
+
+.li_text {
+	color: #000000;
+	& .key-point {
+		margin-left: 0;
+	}
+}

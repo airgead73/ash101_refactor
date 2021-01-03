@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+
+    <head>
+            <meta content="urn:uuid:7536EB79-979A-473F-A5EE-83C9B4F09516" name="dtb:uid" />
+            <meta content="2" name="dtb:depth" />
+            <meta content="0" name="dtb:totalPageCount" />
+            <meta content="0" name="dtb:maxPageNumber" />
+    </head>
+    <docTitle>
+            <text>Of Learning and Assessment Second Edition</text>
+    </docTitle>
+        <navMap>
+			<navPoint id="cover" playOrder="1">
+				<navLabel>
+					<text>Cover and Frontmatter</text>
+				</navLabel>
+				<content src="front_matter.html#cover"/>
+				<navPoint id="copyright" playOrder="2">
+                <navLabel>
+                    <text>Copyright</text>
+                </navLabel>
+                <content src="front_matter.html#copyright"/>
+				</navPoint>
+                <navPoint id="about" playOrder="3">
+                    <navLabel>
+                        <text>About the Author</text>
+                    </navLabel>
+                    <content src="front_matter.html#about" />
+                </navPoint>
+                <navPoint id="acknowledgments" playOrder="4">
+                    <navLabel>
+                        <text>Acknowledgments</text>
+                    </navLabel>
+                    <content src="front_matter.html#acknowledgments" />
+                </navPoint>
+                <navPoint id="preface" playOrder="5">
+                    <navLabel>
+                        <text>Preface</text>
+                    </navLabel>
+                    <content src="front_matter.html#preface" />
+                </navPoint>
+            </navPoint>
+
+        <navPoint id="sec0.1" playOrder="6">
+            <navLabel>
+                <text>Part I: Planning for Success in College</text>
+            </navLabel>
+            <content src="chapter_01.html#sec0.1" />				
+        </navPoint>
+
+        <navPoint id="sec1.0" playOrder="7">
+            <navLabel>
+                    <text>Ch 1: Developing a Plan for Success</text>
+            </navLabel>
+            <content src="chapter_01.html#sec1.0" />
+            <navPoint id="sec1.1" playOrder="8">
+                <navLabel>
+                     <text>1.1 Identifying Your Values and Priorities</text>
+                </navLabel>
+                <content src="chapter_01.html#sec1.1" />
+            </navPoint>
+            <navPoint id="sec1.2" playOrder="9">
+                <navLabel>
+                    <text>1.2 Setting Goals</text>
+                </navLabel>
+				<content src="chapter_01.html#sec1.2" />
+            </navPoint>
+            <navPoint id="sec1.3" playOrder="10">
+                <navLabel>
+                    <text>1.3 Achieving Your Goals</text>
+                </navLabel>
+                <content src="chapter_01.html#sec1.3" />
+            </navPoint>
+                
+            <navPoint id="ch1_summary" playOrder="11">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_01.html#ch1_summary" />
+            </navPoint>
+		</navPoint>  
+
+
+
+
+ 
+
+        </navMap>
+		
+
+</ncx>

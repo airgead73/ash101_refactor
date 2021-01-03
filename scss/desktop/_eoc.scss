@@ -1,0 +1,40 @@
+/* END OF CHAPTER */
+.chapter-review-header {
+	background-color: #323847;
+	background-image: url(../Images/section-seperator5.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	color: #fff;
+	padding: 82px 0px 82px;
+	& h1.eoc_h1 {
+		line-height: 1.2em;
+		color: #fff;
+		padding-left: 2%;
+	}
+}
+
+.chapter-review {
+	padding: 32px 8% 82px;
+	background-color: #191c23;
+	color: #fff;
+	& h2,
+	h3,
+	p.reveal,
+	a {
+		color: #fff;
+	}
+	& p.txt {
+		color: #fff;
+		line-height: 1.45em;
+	}
+}
+
+ol.applied-questions li.li_text {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.4em;
+	border-bottom: 2px solid #3b404f;
+	padding-bottom: 8px;
+	margin-bottom: 28px;
+	color: #fff;
+}

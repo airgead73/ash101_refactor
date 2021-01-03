@@ -1,0 +1,58 @@
+{
+  "name": "ash101",
+  "version": "1.0.0",
+  "description": "Refactor css for ebook.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass scss/desktop.scss epub/OEBPS/styles/style.css --output-style expanded",
+    "watch": "node-sass scss/desktop.scss epub/OEBPS/styles/style.css --output-style expanded --watch",
+    "compile": "node-sass scss/desktop.scss scss/raw.css",
+    "prefix": "postcss scss/raw.css --use autoprefixer --no-map -o scss/prefix.css",
+    "compress": "node-sass scss/prefix.css epub/OEBPS/styles/style.css --output-style compressed",
+    "expanded": "node-sass scss/prefix.css epub/OEBPS/styles/style.css --output-style expanded",
+    "build": "npm-run-all compile prefix expanded"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "parser": "scss",
+    "proseWrap": "always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airgead73/ash101.git"
+  },
+  "keywords": [
+    "css",
+    "ebook",
+    "epub"
+  ],
+  "author": "dan moneypenny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airgead73/ash101/issues"
+  },
+  "homepage": "https://github.com/airgead73/ash101#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
+  },
+  "browserslist": [
+    "IE 10",
+    "IE 11",
+    "Edge 16",
+    "Safari 8",
+    "last 3 Chrome versions",
+    "last 3 FireFox versions",
+    "last 3 iOS versions",
+    "last 3 Android versions"
+  ]
+}

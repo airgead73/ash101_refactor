@@ -1,0 +1,14 @@
+/* PAGE */
+
+section.page {
+	background-color: #fafafa;
+	clear: both;
+}
+
+.section-body {
+	//padding: 32px 0;
+	padding: 75px 0;
+	&:nth-of-type(even) {
+		background-color: #fefefe;
+	}
+}

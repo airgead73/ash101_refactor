@@ -1,0 +1,66 @@
+/* ASIDE - NOV 25 2020 */
+.aside {
+	display: block;
+	width: 100%;
+	border-left: 6px solid #c92a56;
+	&.color-1 {
+		background-color: #323847;
+	}
+	&.color-2 {
+		background-color: #632d46;
+	}
+	&.color-3 {
+		background-color: #585858;
+	}
+}
+
+.aside_title {
+	margin: 0 $mainColumn;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 24px;
+	color: #ffffff;
+	.color-1 & {
+		background-color: #232b36;
+	}
+	.color-2 & {
+		background-color: #4f2438;
+	}
+	.color-3 & {
+		background-color: #464646;
+	}
+}
+
+.aside_content {
+	margin-right: $mainColumn;
+	margin-left: $mainColumn;
+	padding: 15px 30px;
+	color: #ffffff;
+	.color-1 & {
+		background-color: #232b36;
+	}
+	.color-2 & {
+		background-color: #4f2438;
+	}
+	.color-3 & {
+		background-color: #464646;
+	}
+	& p.txt {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		color: #ffffff;
+	}
+	& ol,
+	ul {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	& li {
+		color: #ffffff;
+	}
+	& .tbl {
+		width: 100%;
+	}
+}

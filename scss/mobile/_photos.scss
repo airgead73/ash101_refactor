@@ -1,0 +1,37 @@
+/* PHOTOS */
+.photo-landscape,
+.photo-portrait {
+	flex-direction: column-reverse;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	& figcaption {
+		width: 100%;
+	}
+}
+
+.photo-landscape {
+	& img {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 10px;
+	}
+}
+
+.photo-portrait {
+	& img {
+		width: 65%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 10px;
+	}
+}
+
+/* AUTHOR PHOTOS */
+.photo-author {
+	width: 85%;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}

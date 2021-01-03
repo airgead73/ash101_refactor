@@ -1,0 +1,162 @@
+/* PHOTOS */
+
+.photo-right {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.photo-right:after {
+	/* clearfix */
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.photo-right img {
+	width: 57%;
+	max-width: 576;
+	float: right;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo-right figcaption {
+	width: 40%;
+	max-width: 373px;
+	padding-right: 15px;
+	margin-left: 0;
+	margin-right: 15px;
+	float: left;
+	position: relative;
+}
+
+.photo-right p.caption {
+	font-size: 0.9em;
+	text-align: right;
+	font-weight: bold;
+	margin-bottom: 42px;
+	color: #666;
+	background: #fff;
+	border: 1px solid #ededed;
+	padding: 18px;
+}
+
+.photo-right p.cr {
+	position: absolute;
+	width: 200px;
+	right: 15px;
+	bottom: -8px;
+}
+
+/*new photo class added by CM and edited by JM 6.11. Only used for vertical image 3.3.jpg */
+
+.photo-right-small {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.photo-right-small:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.photo-right-small img {
+	width: 40%;
+	max-width: 576;
+	float: right;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo-right-small figcaption {
+	width: 40%;
+	max-width: 373px;
+	padding-right: 15px;
+	margin-left: 17%;
+	margin-right: 15px;
+	float: left;
+	position: relative;
+}
+
+.photo-right-small p.caption {
+	font-size: 0.9em;
+	text-align: right;
+	font-weight: bold;
+	margin-bottom: 42px;
+	color: #666;
+	background: #fff;
+	border: 1px solid #ededed;
+	padding: 18px;
+}
+
+.photo-right-small p.cr {
+	position: absolute;
+	width: 200px;
+	right: 15px;
+	bottom: -8px;
+}
+
+/* 
+photo without caption
+photo appears in aside column
+*/
+.photo-left {
+	width: 42%;
+	max-width: 380px;
+	float: left;
+	margin: 0;
+	clear: both;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+.photo-left img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.photo-left figcaption {
+	margin-bottom: 0;
+}
+
+.photo-left p.caption {
+	font-size: 0.9em;
+	text-align: left;
+}
+
+.photo-cover {
+	width: 100%;
+	max-width: 600px;
+	float: none;
+	clear: both;
+	margin: 0 auto;
+	padding-top: 2em;
+}
+
+div.photo-right-v {
+	float: right;
+	width: 50%;
+	padding: 0em;
+	margin-right: 0em;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	max-width: 250px;
+	min-width: 200px;
+	clear: both;
+}
+
+div.photo-box-vector {
+	margin: 1em auto;
+	width: 35%;
+	clear: both;
+}
+
+div.photo img {
+	display: block;
+}
