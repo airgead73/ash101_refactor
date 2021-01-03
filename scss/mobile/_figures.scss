@@ -1,21 +1,2 @@
-/* FIGURES */
-.figure {
-	flex-direction: column;
-	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
+/* MOBILE FIGURES */
 
-	& img {
-		width: 100%;
-	}
-	& figcaption {
-		width: 100%;
-		margin-bottom: 40px;
-	}
-}
-
-.figure-fullwidth {
-	& figcaption {
-		width: 100%;
-	}
-}
