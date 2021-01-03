@@ -1,2 +1,19 @@
 /* LISTS */
 
+.ol, .ul {
+  margin: {
+    top: 0;
+    bottom: $mb;
+    left: $mainColumn;
+    right: $mainColumn;
+  }
+  padding-left: 40px;
+}
+
+.ol {
+  list-style-type: decimal;
+}
+
+.ul {
+  list-style-type: disc;
+}

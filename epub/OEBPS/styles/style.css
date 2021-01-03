@@ -76,6 +76,17 @@ dd {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 300;
+  hyphens: none;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: 'RobotoRegular', sans-serif;
 }
@@ -85,8 +96,6 @@ h3,
 h4,
 h5 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  hyphens: none;
 }
 
 p {
@@ -104,7 +113,6 @@ img.scaled {
 }
 
 .clearfix:after {
-  /* clearfix */
   content: '';
   display: table;
   clear: both;
@@ -141,17 +149,17 @@ img.scaled {
   font-size: 30px;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1.25em;
   margin-left: 16%;
   margin-right: 16%;
   padding-top: 8px;
   padding-bottom: 4px;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #dddddd;
 }
 
 .h4 {
   font-family: Cambria, serif;
-  font-size: 32pxl;
+  font-size: 32px;
   margin-top: 1%;
   margin-bottom: 1%;
   text-align: center;
@@ -181,7 +189,7 @@ img.scaled {
 
 .keypoint {
   font-size: 26px;
-  font-font-weight: 300;
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 1em;
   margin-left: 16%;
@@ -217,9 +225,84 @@ small,
 /* SECTIONS */
 /* PART */
 /* LISTS */
+.ol, .ul {
+  margin-top: 0;
+  margin-bottom: 1.25em;
+  margin-left: 16%;
+  margin-right: 16%;
+  padding-left: 40px;
+}
+
+.ol {
+  list-style-type: decimal;
+}
+
+.ul {
+  list-style-type: disc;
+}
+
 /* FIGURES */
 /* PHOTOS */
 /* TABLES */
+table {
+  border-collapse: collapse;
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
+td,
+th {
+  font-size: 14px;
+  padding: 0.25em 0.5em;
+  border: 1px solid #a6a5a5;
+  vertical-align: top;
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+/* table headers */
+.table__head th, .table__head td,
+.table__subhead th,
+.table__subhead td {
+  background-color: #484848;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+[scope="th"] {
+  font-weight: bold;
+}
+
+/* remove borders */
+.td--no-border,
+.th--no-border {
+  border: none;
+}
+
+.td--no-border-right,
+.th--no-border-right {
+  border-right: none;
+  padding-right: 0px;
+}
+
+.td--no-border-left,
+.th--no-border-left {
+  border-left: none;
+  padding-left: 0px;
+}
+
+.tr--no-border td {
+  border: none;
+}
+
+.tr--no-border th {
+  border: none;
+}
+
+.tfoot--no-border td {
+  border: none;
+}
+
 /* END OF CHAPTER */
 /* ASIDE - NOV 24 2020 */
 /* EXPAND COLLAPSE */

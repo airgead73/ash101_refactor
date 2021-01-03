@@ -4,21 +4,40 @@
 $mainColumn: 16%;
 
 // colors
+// $gray: (
+//   lighter: #ddd,
+//   medium: #484848,
+//   light: #fafafa,
+//   white: #fefefe
+// );
+
 $gray: (
-  lighter: #ddd,
-  medium: #484848,
-  light: #fafafa,
-  white: #fefefe
+  one: #fefefe,
+  two: #fafafa,
+  three: #dddddd,
+  four: #a6a5a5,
+  five: #484848
 );
 
 $red: (
   medium: #c92b56
 );
 
+$green: (
+  dark: #2f402d
+);
+
 @function gray($color) {
   @return map-get($gray, $color)
-}
+};
 
 @function red($color) {
   @return map-get($red, $color)
-}
+};
+
+@function green($color) {
+  @return map-get($green, $color)
+};
+
+// padding
+$mb: 1.25em;

@@ -1,13 +1,13 @@
 /* PAGE */
 
 .page {
-	background-color: gray(light);
+	background-color: gray(two);
 	clear: both;
 }
 
 .section {
   padding: 75px 0;
   &:nth-of-type(even) {
-    background-color: gray(white)
+    background-color: gray(one)
   }
 }

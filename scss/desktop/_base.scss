@@ -54,8 +54,19 @@ dd {
 	padding: 0;
 }
 
+h1,
+h2, 
+h3,
+h4,
+h5 {
+	font-weight: 300;
+	hyphens: none;
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
-	font-family: 'RobotoRegular', sans-serif;
+	font-family: 'RobotoRegular', sans-serif
 }
 
 h2,
@@ -63,12 +74,10 @@ h3,
 h4,
 h5 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	hyphens: none;
 }
 
 p {
-	margin-bottom: 1.25em;
+	margin-bottom: $mb;
 }
 
 img {
@@ -82,7 +91,6 @@ img.scaled {
 }
 
 .clearfix:after {
-	/* clearfix */
 	content: '';
 	display: table;
 	clear: both;

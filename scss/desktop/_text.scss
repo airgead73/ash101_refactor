@@ -32,7 +32,7 @@
 .keypoint {
   font: {
     size: 26px;
-    font-weight: 300;
+    weight: 300;
   }
   margin: {
     top: 0;
@@ -56,8 +56,8 @@ small,
 
 .link {
 	text-decoration: none;
-	color: #2f402d;
-	border-bottom: dotted 1.5px #2f402d;
+	color: green(dark);
+	border-bottom: dotted 1.5px green(dark);
 	transition: border-bottom-style 0.27s;
   word-break: break-word;
   &:hover {
