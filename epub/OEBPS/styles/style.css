@@ -304,6 +304,36 @@ th {
 }
 
 /* END OF CHAPTER */
+/* ARTICLE */
+.article {
+  width: 100%;
+}
+
+.article__header {
+  text-align: center;
+  width: 100%;
+}
+
+.article__title {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.article__subtitle {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: light;
+}
+
+.article__content {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 16%;
+  padding-left: 16%;
+}
+
 /* ASIDE - NOV 24 2020 */
 /* EXPAND COLLAPSE */
 /* TIPBOX */
