@@ -3,14 +3,6 @@
 // Columns
 $mainColumn: 16%;
 
-// colors
-// $gray: (
-//   lighter: #ddd,
-//   medium: #484848,
-//   light: #fafafa,
-//   white: #fefefe
-// );
-
 $gray: (
   one: #fefefe,
   two: #fafafa,
@@ -39,5 +31,17 @@ $green: (
   @return map-get($green, $color)
 };
 
-// padding
+// margin
 $mb: 1.25em;
+$mb: (
+  sm: 1em,
+  standard: 1.25em,
+  xl: 1.5em
+);
+
+@function mb($margin) {
+  @return map-get($mb, $margin)
+};
+
+
+

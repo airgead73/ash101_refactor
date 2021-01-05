@@ -5,8 +5,7 @@
 	clear: both;
 }
 
-.section {
-  padding: 75px 0;
+.section {  
   &:nth-of-type(even) {
     background-color: gray(one)
   }
