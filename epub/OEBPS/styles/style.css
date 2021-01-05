@@ -114,31 +114,67 @@ body {
 /* ARTICLE */
 .article {
   font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 16%;
+  padding-left: 16%;
+  background-color: #632d46;
+  color: white;
+  border-left: 6px solid #c92a56;
 }
 
 .article__header {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 15px;
   text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  color: inherit;
+  background-color: #4f2438;
 }
 
 .article__title {
   display: inline-block;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
 }
 
 .article__subtitle {
   display: inline-block;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.article__content {
+  background-color: #4f2438;
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .article__tx {
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 1.25em;
+  color: inherit;
+}
+
+.article__ul {
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  color: inherit;
+  padding-left: 25px;
+}
+
+.article__ul li {
+  list-style-type: disc;
+  margin-bottom: 0.75em;
+  color: inherit;
 }
 
 /* ASIDE - NOV 24 2020 */

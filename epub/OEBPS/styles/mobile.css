@@ -1,4 +1,8 @@
 @media only screen and (max-width: 750px) {
+  /* EDU 645 CSS mobile refactor - January 2021 */
+  /* MOBILE FONTS */
+  /* MOBILE BASE */
+  /* MOBILE PAGE */
   /* MOBILE HEADERS */
   /* MOBILE TEXT */
   /* MOBILE CHAPTER OPENER */
@@ -8,6 +12,19 @@
   /* MOBILE FIGURES */
   /* MOBILE PHOTOS */
   /* MOBILE TABLES */
+  /* MOBILE FRONTMATTER AND BACKMATTER */
+  /* ARTICLE */
+  .article {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .article__content {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
   /* ASIDE */
+  /* EXPAND COLLAPSE */
+  /* TIPBOX */
+  /* STORYLINE */
   /* VIDEO */
 }

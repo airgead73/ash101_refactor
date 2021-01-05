@@ -1,26 +1,72 @@
 /* ARTICLE */ 
 
+// padding variable
+$articlePadding: 30px;
+
 .article {
   font-family: 'Source Sans Pro', sans-serif;
+  margin: {
+    top: 30px;
+    bottom: 30px;
+  }
+  padding: {
+    right: $mainColumn;
+    left: $mainColumn;
+  }
+  background-color: #632d46;
+  color: white;
+  border-left: 6px solid #c92a56; 
   &__header {
-    padding: 30px 0;
-    text-align: center;    
+    padding: {
+      top: $articlePadding;
+      bottom: $articlePadding / 2;
+    }
+    text-align: center; 
+    font-size: 24px;
+    line-height: 36px;
+    color: inherit;  
+    background-color: #4f2438;      
   }
   &__title {
     display: inline-block;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;    
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
   }
   &__subtitle {
     display: inline-block;
     font-weight: 300;
-    font-size: 24px;
-    line-height: 36px;    
+    font-size: inherit;
+    line-height: inherit; 
+    color: inherit;  
+  }
+  &__content {
+    background-color: #4f2438;
+    padding: {
+      top: 0;
+      bottom: $articlePadding;
+      right: $articlePadding / 2;
+      left: $articlePadding / 2;
+    }
   }
   &__tx {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 1.25em;
+    color: inherit;
+  }
+  &__ul {
+    margin: {
+      left: 1.25em;
+      right: 1.25em;
+    }
+    color: inherit;
+    padding-left: 25px;
+    & li {
+      list-style-type: disc;
+      margin-bottom: 0.75em;
+      color: inherit;
+    }
   }
 }
