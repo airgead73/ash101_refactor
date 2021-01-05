@@ -1,3 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+figure,
+figcaption,
+article,
+aside,
+td,
+th, ul,
+ol {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
 /* EDU 645 CSS refactor 1-2-21 */
 /* FONTS */
 @font-face {
@@ -51,11 +71,6 @@ td,
 th {
   margin: 0;
   padding: 0;
-  font-size: 16px;
-  line-height: 1;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;
-  color: black;
 }
 
 ul,
@@ -97,6 +112,35 @@ body {
 /* TABLES */
 /* END OF CHAPTER */
 /* ARTICLE */
+.article {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article__header {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.article__title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.article__subtitle {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.article__tx {
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
 /* ASIDE - NOV 24 2020 */
 /* EXPAND COLLAPSE */
 /* TIPBOX */
